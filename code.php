@@ -1,1 +1,1 @@
-mod_update *@* Function HtmlDownloads(Url As String)  *@*  On Error Resume Next  *@*  Dim HtmlTXT As String  *@*   *@* 'Revisamos en la web si existe nueva version  *@*  *@*  With CreateObject("MSXML2.XMLHTTP")  *@*     .Open "GET", Url, False  *@*     .Send  *@*     HtmlTXT = .ResponseText  *@*   End With  *@*   *@*   HtmlDownload = HtmlTXT  *@*  End Function
+mod_update *@* Sub loadmod() *@* frm_calcular.op_colaborador.Enabled = False *@* End Sub
